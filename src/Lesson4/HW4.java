@@ -147,8 +147,6 @@ public class HW4 {
                     break;
             }
         } while (!checkPlayerMove(currentPlayerX, currentPlayerY, playerPosX, playerPosY));
-        //i++
-        //+= value, -= value, *= value, /= value -> i = i + value;
         playerNextMoveAction(currentPlayerX, currentPlayerY, playerPosX, playerPosY);
 
     }
@@ -156,10 +154,6 @@ public class HW4 {
     public static void playerNextMoveAction(int lastPosX, int lastPosY, int nextPosX, int nextPosY) {
         if (invisibleRoom[nextPosY][nextPosX] == enemy) {
             fightingWithEnemy();
-//            playerHP -= enemyAttack;
-//            System.out.println("ALERT! Enemy give damage " + enemyAttack + ". Player HP now is " + playerHP);
-//            countEnemies--;
-//            invisibleRoom[nextPosY][nextPosX] = emptyCell;
         }
 
         room[playerPosY][playerPosX] = player;
