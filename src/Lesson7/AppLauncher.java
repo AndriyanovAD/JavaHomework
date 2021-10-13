@@ -5,3 +5,4 @@ public class AppLauncher {
         AppWindow appWindow = new AppWindow();
     }
 }
+

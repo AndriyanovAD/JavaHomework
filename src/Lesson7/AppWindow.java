@@ -14,18 +14,18 @@ public class AppWindow extends JFrame {
 
     private GameMap map;
     private GuiPanel guiPanel;
-AppWindow() {
-    setUpWindow();
+    AppWindow() {
+        setUpWindow();
 
-    map = new GameMap();
-    guiPanel = new GuiPanel();
+        map = new GameMap();
+        guiPanel = new GuiPanel();
 
 
-    add(guiPanel, BorderLayout.EAST);
-    add(map);
+        add(guiPanel, BorderLayout.EAST);
+        add(map);
 
-    setVisible(true);
-}
+        setVisible(true);
+    }
     private void setUpWindow() {
         setIconImage(icon.getImage());
         setTitle("GuiApplication");
