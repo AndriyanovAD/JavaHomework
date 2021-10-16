@@ -2,7 +2,6 @@ package Lesson8.models;
 
 public class Player {
 
-//    private char player = '@';
     private int health = 100;
     private int power = 8;
     private int x;

@@ -9,6 +9,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class GameMap extends JPanel {
+
     private JLabel currentlevel;
     private JLabel currentMapSize;
 
@@ -36,8 +37,6 @@ public class GameMap extends JPanel {
 
     private boolean isExistMap;
     private boolean isGameStart;
-//    private URL iconURL = getClass().getResource("icon1.png");
-//    private ImageIcon icon = new ImageIcon(iconURL);
 
     private int levelGame;
 
@@ -139,9 +138,6 @@ public class GameMap extends JPanel {
     {
         return checkRoom[y][x] == CELL_EMPTY;
     }
-
-
-
 
     private void fightingWithEnemy() {
         int originalEnemyHP = enemy.getHealth();

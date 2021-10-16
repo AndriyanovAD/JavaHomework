@@ -5,6 +5,7 @@ import java.awt.*;
 import java.net.URL;
 
 public class AppWindow extends JFrame {
+
     private int winWidth = 1024;
     private int winHeight = 768;
     private int winPositionX = 450;
