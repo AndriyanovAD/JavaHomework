@@ -1,7 +1,6 @@
 package Lesson8.models;
 
 import Lesson8.Tools;
-
 import javax.tools.Tool;
 
 public class Enemy {

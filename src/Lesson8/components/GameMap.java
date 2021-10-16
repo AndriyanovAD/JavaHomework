@@ -36,8 +36,7 @@ public class GameMap extends JPanel {
 
     private boolean isExistMap;
     private boolean isGameStart;
-//    private URL iconURL = getClass().getResource("icon1.png");
-//    private ImageIcon icon = new ImageIcon(iconURL);
+
 
     private int levelGame;
 

@@ -92,8 +92,6 @@ public class GuiPanel extends JPanel {
         infoGame = new JPanel();
         infoGame.setBackground(Color.darkGray);
         infoGame.setLayout(new GridLayout(5,1));
-//        currentLevel = new JLabel("Level: - ");
-//        currentLevel.setForeground(Color.WHITE);
         countEnemy = new JLabel("Количество врагов: - ");
         countEnemy.setForeground(Color.WHITE);
         enemyHP = new JLabel("Enemy HP = - ");
@@ -105,7 +103,6 @@ public class GuiPanel extends JPanel {
 
 
         infoGame.add(titlePanel);
-//        infoGame.add(currentLevel);
         infoGame.add(countEnemy);
         infoGame.add(enemyHP);
         infoGame.add(enemyStr);
@@ -196,7 +193,6 @@ public class GuiPanel extends JPanel {
     }
 
     void refreshGui(GameMap map) {
-//        currentLevel.setText(map.getInfoLevel());
         countEnemy.setText("Количество врагов: " + map.getInfoEnemy().getCountEnemies());
         enemyHP.setText("Enemy HP = " + map.getInfoEnemy().getHealth());
         enemyStr.setText("Enemy Str = " + map.getInfoEnemy().getPower());

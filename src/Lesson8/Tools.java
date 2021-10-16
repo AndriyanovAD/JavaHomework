@@ -8,4 +8,5 @@ public class Tools {
     public static int randomValue(int min, int max) {
         return min + random.nextInt(max - min + 1);
     }
+
 }
